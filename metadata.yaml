@@ -1,0 +1,15 @@
+name: astrbot_plugin_quiet_hours
+display_name: 深夜静默
+desc: "在指定时段内彻底不响应消息：不回复、不主动、不记录、不调用模型。把 Bot 的活跃时间收窄到人类作息范围，避免凌晨仍在活跃这类机器行为特征。支持跨午夜时段。"
+short_desc: 指定时段彻底静默，降低风控风险
+author: Randy Lua
+repo: https://github.com/RandyLuaW/astrbot_plugin_quiet_hours
+version: 1.0.0
+astrbot_version: ">=4.17.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 风控
+  - 静默
+  - 作息
+  - 降频

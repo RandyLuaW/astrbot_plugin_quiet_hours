@@ -1,0 +1,38 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "启用深夜静默"
+  },
+  "start_hour": {
+    "type": "int",
+    "default": 0,
+    "description": "静默开始-小时（0-23）"
+  },
+  "start_minute": {
+    "type": "int",
+    "default": 0,
+    "description": "静默开始-分钟（0-59）"
+  },
+  "end_hour": {
+    "type": "int",
+    "default": 8,
+    "description": "静默结束-小时（0-23）"
+  },
+  "end_minute": {
+    "type": "int",
+    "default": 0,
+    "description": "静默结束-分钟（0-59）"
+  },
+  "scope": {
+    "type": "string",
+    "default": "all",
+    "description": "生效范围：all 群聊和私聊都静默，group 只静默群聊。",
+    "options": ["all", "group"]
+  },
+  "log_once_per_day": {
+    "type": "bool",
+    "default": true,
+    "description": "每天首次进入静默期时写一条日志（不发群消息）"
+  }
+}
