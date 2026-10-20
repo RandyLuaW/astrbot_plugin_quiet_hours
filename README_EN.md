@@ -1,6 +1,6 @@
 # Quiet Hours: total silence in a configured window
 
-> AstrBot plugin · No model calls, no memory writes, no messages
+> AstrBot plugin · Zero calls, zero memory writes, zero messages
 
 ## The problem
 
